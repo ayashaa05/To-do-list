@@ -1,0 +1,60 @@
+body {
+    font-family: 'Goudy Old Style', Courier, monospace;
+    /* background-color: bisque; */
+    background-image: url(https://img.freepik.com/free-vector/gradient-white-monochrome-background_23-2149017048.jpg?w=2000);
+    background-size: cover;
+    text-align: center;
+}
+
+
+#btnaddtask {
+    font-size: 20px;
+    font-family: 'Goudy Old Style', Courier, monospace;
+    margin: 30px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10%;
+
+}
+
+.task {
+    font-family: 'Goudy Old Style', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btns {
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Goudy Old Style', Courier, monospace;
+    font-weight: bold;
+}
+
+#clearTasks, #dltSelected{
+    font-family: 'Goudy Old Style', Courier, monospace;
+    font-size: 20px;
+    margin: 30px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10%;
+
+}
+
+#list {
+    font-family: 'Goudy Old Style', Courier, monospace;
+    display: inline-block;
+    font-size: 25px;
+    text-align: left;
+}
+
+#reset {
+    font-family: 'Goudy Old Style', Courier, monospace;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10%;
+
+}
+
+

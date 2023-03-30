@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+    <title>To Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <h1 id="mainHeading">To do list</h1>
+            <h2>Makes your daily tasks easy to remember.</h2>
+        </div>
+        <div class="btns">
+
+            <div class="task" id="task">
+
+                <label for="taskdata">Enter your task:</label>
+
+                <input type="text" id="userInput" size="50px">
+
+                <button id="reset" onclick="resetInput()" disabled> Reset </button>
+            </div>
+
+            <button onclick="addTask()" id="btnaddtask" disabled>Add Task</button>
+
+            <p> Your Today's Tasks are: </p>
+
+            <h2 id="message"> </h2>
+
+            <ul id="list"> </ul>
+
+            <br><br>
+
+            <button id="clearTasks" disabled>Clear All Tasks</button>
+            <button id="dltSelected" disabled> Delete Selected Items</button>
+
+
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</HTML>
